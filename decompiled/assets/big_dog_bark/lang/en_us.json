@@ -1,0 +1,10 @@
+{
+  "enchantment.big_dog_bark.big_dog_bark": "Big Dog Bark",
+  "enchantment.big_dog_bark.no_bark_curse": "No Bark Curse",
+  "itemGroup.big_dog_bark": "Big Dog Bark",
+  "tag.item.big_dog_bark.enchantable": "Big Dog Bark Enchantable Weapons and Tools",
+  "advancement.big_dog_bark.tame_big_dog.title": "Huh? Big Dog",
+  "advancement.big_dog_bark.tame_big_dog.description": "Tame a wolf for the first time and receive a Big Dog Bark enchanted book",
+  "item.big_dog_bark.eh_big_dog_music_disc": "Huh? Big Dog",
+  "jukebox_song.big_dog_bark.eh_big_dog": "Big Dog & Libeng Yuebuhuai - Huh? Big Dog!"
+}

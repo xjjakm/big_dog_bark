@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "tamed_wolf": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:wolf"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": { "translate": "advancement.big_dog_bark.tame_big_dog.description" },
+    "icon": { "count": 1, "id": "minecraft:enchanted_book" },
+    "title": { "translate": "advancement.big_dog_bark.tame_big_dog.title" }
+  },
+  "requirements": [["tamed_wolf"]]
+}

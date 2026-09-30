@@ -1,0 +1,26 @@
+{
+  "xslow": { "sounds": ["big_dog_bark:xslow"] },
+  "slow": { "sounds": ["big_dog_bark:slow"] },
+  "mid": { "sounds": ["big_dog_bark:mid"] },
+  "fast": { "sounds": ["big_dog_bark:fast"] },
+  "xfast": { "sounds": ["big_dog_bark:xfast"] },
+  "xxfast": { "sounds": ["big_dog_bark:xxfast"] },
+  "xxxfast": { "sounds": ["big_dog_bark:xxxfast"] },
+  "shout": { "sounds": ["big_dog_bark:shout"] },
+  "eh": { "sounds": ["big_dog_bark:eh"] },
+  "bigdog": { "sounds": ["big_dog_bark:bigdog"] },
+  "dingdongchick": { "sounds": ["big_dog_bark:dingdongchick"] },
+  "ding": { "sounds": ["big_dog_bark:ding"] },
+  "dong": { "sounds": ["big_dog_bark:dong"] },
+  "chick": { "sounds": ["big_dog_bark:chick"] },
+  "doublechick": { "sounds": ["big_dog_bark:doublechick"] },
+  "triplechick": { "sounds": ["big_dog_bark:triplechick"] },
+  "quadruplechick": { "sounds": ["big_dog_bark:quadruplechick"] },
+  "doganvil": { "sounds": ["big_dog_bark:doganvil"] },
+  "noshout": { "sounds": ["big_dog_bark:noshout"] },
+  "egg": { "sounds": ["big_dog_bark:egg"] },
+  "smallshout": { "sounds": ["big_dog_bark:smallshout"] },
+  "music_disc.eh_big_dog": {
+    "sounds": [{ "name": "big_dog_bark:music_disc_eh_big_dog", "stream": true }]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "enchantment.big_dog_bark.big_dog_bark": "大狗叫",
+  "enchantment.big_dog_bark.no_bark_curse": "不叫诅咒",
+  "itemGroup.big_dog_bark": "大狗叫",
+  "tag.item.big_dog_bark.enchantable": "可附魔大狗叫的武器与工具",
+  "advancement.big_dog_bark.tame_big_dog.title": "诶？大狗",
+  "advancement.big_dog_bark.tame_big_dog.description": "首次驯服一只狼，并获得大狗叫附魔书",
+  "item.big_dog_bark.eh_big_dog_music_disc": "诶？大狗",
+  "jukebox_song.big_dog_bark.eh_big_dog": "大狗到底叫不叫、礼崩乐不坏 - 欸？大狗！"
+}

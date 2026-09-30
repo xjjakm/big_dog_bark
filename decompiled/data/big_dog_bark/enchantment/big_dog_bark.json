@@ -1,0 +1,12 @@
+{
+  "anvil_cost": 1,
+  "description": { "translate": "enchantment.big_dog_bark.big_dog_bark" },
+  "effects": {},
+  "max_cost": { "base": 25, "per_level_above_first": 0 },
+  "max_level": 1,
+  "min_cost": { "base": 5, "per_level_above_first": 0 },
+  "primary_items": "#big_dog_bark:enchantable",
+  "slots": ["mainhand", "offhand"],
+  "supported_items": "#big_dog_bark:enchantable",
+  "weight": 10
+}

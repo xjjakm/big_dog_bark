@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.big_dog_bark.eh_big_dog"
+  },
+  "length_in_seconds": 96.0,
+  "sound_event": "big_dog_bark:music_disc.eh_big_dog"
+}

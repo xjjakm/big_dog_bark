@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "tame_01": { "trigger": "minecraft:impossible" },
+    "tame_02": { "trigger": "minecraft:impossible" },
+    "tame_03": { "trigger": "minecraft:impossible" },
+    "tame_04": { "trigger": "minecraft:impossible" },
+    "tame_05": { "trigger": "minecraft:impossible" },
+    "tame_06": { "trigger": "minecraft:impossible" },
+    "tame_07": { "trigger": "minecraft:impossible" },
+    "tame_08": { "trigger": "minecraft:impossible" },
+    "tame_09": { "trigger": "minecraft:impossible" },
+    "tame_10": { "trigger": "minecraft:impossible" }
+  },
+  "requirements": [
+    ["tame_01"],
+    ["tame_02"],
+    ["tame_03"],
+    ["tame_04"],
+    ["tame_05"],
+    ["tame_06"],
+    ["tame_07"],
+    ["tame_08"],
+    ["tame_09"],
+    ["tame_10"]
+  ]
+}

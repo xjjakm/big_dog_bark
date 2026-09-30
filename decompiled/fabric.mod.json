@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "big_dog_bark",
+  "version": "1.0.0",
+  "name": "大狗叫",
+  "description": "让附魔武器攻击和附魔工具挖掘时播放逐渐加速的大狗叫。",
+  "authors": ["土豆味小哲"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.tudouweixiaozhe.bigdogbark.BigDogBarkMod"],
+    "client": ["com.tudouweixiaozhe.bigdogbark.client.BigDogBarkClient"]
+  },
+  "mixins": ["big_dog_bark.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

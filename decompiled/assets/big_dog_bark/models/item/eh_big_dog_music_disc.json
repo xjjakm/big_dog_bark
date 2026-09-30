@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_music_disc",
+  "textures": {
+    "layer0": "big_dog_bark:item/eh_big_dog_music_disc"
+  }
+}
