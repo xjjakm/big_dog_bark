@@ -18,8 +18,14 @@ public final class ModItemGroups {
       .title(Component.translatable("itemGroup.big_dog_bark"))
       .icon(() -> new ItemStack(Items.ENCHANTED_BOOK))
       .displayItems((parameters, output) -> {
-         output.accept(BigDogBarkEnchantment.createBook(parameters.holders()));
-         output.accept(NoBarkCurseEnchantment.createBook(parameters.holders()));
+         ItemStack bigDogBook = BigDogBarkEnchantment.createBook(parameters.holders());
+         if (bigDogBook != null) {
+            output.accept(bigDogBook);
+         }
+         ItemStack noBarkBook = NoBarkCurseEnchantment.createBook(parameters.holders());
+         if (noBarkBook != null) {
+            output.accept(noBarkBook);
+         }
          output.accept(ModItems.EH_BIG_DOG_DISC);
       })
       .build();

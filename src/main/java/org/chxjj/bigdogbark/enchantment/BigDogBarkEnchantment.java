@@ -31,8 +31,12 @@ public final class BigDogBarkEnchantment {
       return stack != null && !stack.isEmpty() ? stack.getEnchantments().keySet().stream().anyMatch(holder -> holder.is(KEY)) : false;
    }
 
-   public static ItemStack createBook(Provider registries) {
-      Holder<Enchantment> enchantment = registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(KEY);
+   // 注册表里没有该附魔时（如客户端进入原版服务器）返回 null，调用方需跳过
+   public static @org.jspecify.annotations.Nullable ItemStack createBook(Provider registries) {
+      Holder<Enchantment> enchantment = registries.lookup(Registries.ENCHANTMENT).flatMap(lookup -> lookup.get(KEY)).orElse(null);
+      if (enchantment == null) {
+         return null;
+      }
       ItemStack book = EnchantmentHelper.createBook(new EnchantmentInstance(enchantment, 1));
       book.set(
          DataComponents.TOOLTIP_DISPLAY,
