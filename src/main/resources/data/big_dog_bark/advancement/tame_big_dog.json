@@ -4,15 +4,13 @@
     "tamed_wolf": {
       "trigger": "minecraft:tame_animal",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": "minecraft:wolf"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf"
           }
-        ]
+        }
       }
     }
   },
